@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecuavoley - El Deporte Nacional del Ecuador</title>
+     <link rel="stylesheet" href="mimii.css">
+      <script src="mimiis.js"></script>
+                      <link rel="shortcut icon" type="image/x-icon" href="volleyball- (2).ico">
+<body>   
+    <header>
+        <nav>
+            <div class="logo" onclick="showSection('inicio')">🏐 ECUAVOLEY</div>
+            <ul class="nav-links">
+                <li><button onclick="showSection('inicio')" id="btn-inicio" class="active">Inicio</button></li>
+                <li><button onclick="showSection('historia')" id="btn-historia">Historia</button></li>
+                <li><button onclick="showSection('reglas')" id="btn-reglas">Reglas</button></li>
+                <li><button onclick="showSection('equipos')" id="btn-equipos">Equipos</button></li>
+                <li><button onclick="showSection('contacto')" id="btn-contacto">Contacto</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <!-- INICIO -->
+        <div id="inicio" class="page-section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>ECUAVOLEY</h1>
+                    <p>El Deporte Nacional que Une a los Ecuatorianos</p>
+                    <div class="cta-buttons">
+        
+                        <button class="cta-button" onclick="showSection('historia')">📚 Conoce la Historia</button>
+                        <button class="cta-button" onclick="showSection('reglas')">📋 Ver las Reglas</button>
+                        <button class="cta-button" onclick="showSection('equipos')">👥 Los Equipos</button>
+                        <button class="cta-button" onclick="showSection('contacto')">📞 Contáctanos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HISTORIA -->
+        <div id="historia" class="page-section">
+            <div class="section-content">
+                <h2 class="section-title">Historia del Ecuavoley</h2>
+                <div class="historia-content fade-in">
+                    <div class="historia-text">
+                        <p>El ecuavoley nació en la década de 1950 en Ecuador como una adaptación única del voleibol tradicional. Este deporte se caracteriza por jugarse con solo tres jugadores por equipo y una pelota de fútbol, creando una dinámica completamente diferente y emocionante.</p>
+                        
+                        <p>Originalmente practicado en las calles y parques de Quito, el ecuavolley se expandió rápidamente por todo el país, convirtiéndose en una tradición cultural que trasciende las clases sociales y une a las comunidades ecuatorianas.</p>
+                        
+                        <p>A lo largo de los años, el ecuavolley ha evolucionado desde un juego callejero hasta convertirse en un deporte organizado con federaciones, torneos oficiales y reglas estandarizadas. Hoy en día se practica no solo en Ecuador, sino también en otros países latinoamericanos.</p>
+                        
+                        <p>El deporte ha sido fundamental en la construcción de la identidad deportiva ecuatoriana, siendo considerado por muchos como el verdadero deporte nacional del país, superando incluso al fútbol en popularidad en ciertas regiones.</p>
+                    </div>
+                    <div class="historia-image">
+                        🏐 Tradición Ecuatoriana desde 1950
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>Una tradición que comenzó en las calles y conquistó corazones ecuatorianos</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- REGLAS -->
+        <div id="reglas" class="page-section">
+            <div class="section-content">
+                <h2 class="section-title">Reglas del Juego</h2>
+                <div class="reglas-grid fade-in">
+                    <div class="regla-card">
+                        <h3>⚽ Pelota</h3>
+                        <p>Se juega con una pelota de fútbol #5, que debe estar bien inflada. La pelota no puede tocar el suelo del lado propio más de una vez antes de ser enviada al campo contrario.</p>
+                    </div>
+                    
+                    <div class="regla-card">
+                        <h3>👥 Equipos</h3>
+                        <p>Cada equipo está conformado por 3 jugadores: un colocador (centro), un servidor (derecha) y un volador (izquierda). Cada posición tiene funciones específicas.</p>
+                    </div>
+                    
+                    <div class="regla-card">
+                        <h3>🏐 Red</h3>
+                        <p>La red tiene una altura de 2.85 metros y divide la cancha en dos campos iguales. La pelota debe pasar por encima de la red sin tocarla.</p>
+                    </div>
+                    
+                    <div class="regla-card">
+                        <h3>📏 Cancha</h3>
+                        <p>La cancha mide 18 x 9 metros, dividida en dos campos de 9 x 9 metros. Las líneas de ataque están a 3 metros de la red.</p>
+                    </div>
+                    
+                    <div class="regla-card">
+                        <h3>🎯 Puntuación</h3>
+                        <p>Se juega a 15 puntos con diferencia de 2. Solo el equipo que saca puede anotar puntos. Los sets se juegan al mejor de 3 o 5 según la competencia.</p>
+                    </div>
+                    
+                    <div class="regla-card">
+                        <h3>✋ Toques</h3>
+                        <p>Cada equipo puede dar máximo 3 toques antes de enviar la pelota al campo contrario. Un jugador no puede tocar la pelota dos veces consecutivas.</p>
+                    </div>
+
+                    <div class="regla-card">
+                        <h3>🔄 Rotación</h3>
+                        <p>Los jugadores rotan sus posiciones cuando recuperan el saque. La rotación es en sentido horario: servidor → colocador → volador → servidor.</p>
+                    </div>
+                    
+                    <div class="regla-card">
+                        <h3>⚠️ Faltas</h3>
+                        <p>Son faltas: tocar la red, pisar la línea central, hacer más de 3 toques, tocar dos veces seguidas la pelota, o que la pelota toque el suelo propio.</p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>Reglas simples, emoción infinita - Así es el Ecuavolley</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- EQUIPOS -->
+        <div id="equipos" class="page-section">
+            <div class="section-content">
+                <h2 class="section-title">Posiciones y Roles</h2>
+                <div class="equipos-container fade-in">
+                    <div class="equipo-card">
+                        <h3>🎯 COLOCADOR</h3>
+                        <p>Jugador central que organiza el juego, recibe la pelota y la coloca para que sus compañeros ataquen. Es el cerebro del equipo y debe tener excelente visión de juego y capacidad de liderazgo.</p>
+                        <hr style="margin: 1rem 0; border: 1px solid rgba(255,255,255,0.3);">
+                        <strong>Habilidades clave:</strong> Precisión, visión de juego, liderazgo
+                    </div>
+                    
+                    <div class="equipo-card">
+                        <h3>⚡ SERVIDOR</h3>
+                        <p>Ubicado en la posición derecha, es quien inicia el juego con el saque. Debe tener potencia y precisión para servicios efectivos y también participar activamente en el ataque.</p>
+                        <hr style="margin: 1rem 0; border: 1px solid rgba(255,255,255,0.3);">
+                        <strong>Habilidades clave:</strong> Potencia, precisión, versatilidad
+                    </div>
+                    
+                    <div class="equipo-card">
+                        <h3>🦅 VOLADOR</h3>
+                        <p>Posición izquierda, especialista en remates y bloqueos. Es el principal atacante del equipo, debe tener gran salto y coordinación para los remates espectaculares que caracterizan al ecuavolley.</p>
+                        <hr style="margin: 1rem 0; border: 1px solid rgba(255,255,255,0.3);">
+                        <strong>Habilidades clave:</strong> Salto, coordinación, fuerza
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; text-align: center; background: white; padding: 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <h3 style="color: #FF6B35; margin-bottom: 1rem;">🔄 Estrategia de Equipo</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+                        El éxito en el ecuavolley depende de la perfecta coordinación entre estos tres jugadores. 
+                        Cada uno debe dominar su rol específico mientras mantiene la comunicación constante con sus compañeros. 
+                        La rotación de posiciones cuando se recupera el saque añade una dimensión estratégica única al juego.
+                    </p>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>Tres jugadores, un objetivo: La gloria del Ecuavolley</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- CONTACTO -->
+        <div id="contacto" class="page-section">
+            <div class="section-content">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contacto-form fade-in">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interes">¿Cuál es tu interés?</label>
+                            <select id="interes" name="interes" style="width: 100%; padding: 1rem; border: 2px solid #eee; border-radius: 10px; font-size: 1rem;">
+                                <option value="">Selecciona una opción</option>
+                                <option value="aprender">Aprender a jugar</option>
+                                <option value="torneos">Participar en torneos</option>
+                                <option value="equipo">Formar un equipo</option>
+                                <option value="entrenar">Entrenar profesionalmente</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu interés en el ecuavolley..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar Mensaje 🏐</button>
+                    </form>
+                </div>
+
+                <div style="margin-top: 3rem; text-align: center; background: linear-gradient(135deg, #FF6B35, #FFD700); padding: 2rem; border-radius: 20px; color: white;">
+                    <h3 style="margin-bottom: 1rem;">🏐 ¡Únete a la Comunidad del Ecuavolley!</h3>
+                    <p style="font-size: 1.1rem; line-height: 1.6;">
+                        Sea que quieras aprender, competir o simplemente disfrutar de este maravilloso deporte, 
+                        estamos aquí para ayudarte. ¡El ecuavolley te está esperando!
+                    </p>
+                </div>
+            </div>
+            <footer>
+                <div class="footer-content">
+                    <p>Conecta con la pasión del Ecuavolley - ¡Te esperamos en la cancha!</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Botón flotante para volver al inicio -->
+    <button class="back-button" id="backButton" onclick="showSection('inicio')">
+        🏠
+    </button>
+
+  
+        <nav>
+            <div class="logo" onclick="showSection('inicio')">🏐 ECUAVOLLEY</div>
+            <ul class="nav-links">
+                <li><button onclick="showSection('inicio')" id="btn-inicio" class="active">Inicio</button></li>
+                <li><button onclick="showSection('historia')" id="btn-historia">Historia</button></li>
+                <li><button onclick="showSection('reglas')" id="btn-reglas">Reglas</button></li>
+                <li><button onclick="showSection('equipos')" id="btn-equipos">Equipos</button></li>
+                <li><button onclick="showSection('contacto')" id="btn-contacto">Contacto</button></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Botón flotante para volver al inicio -->
+    <button class="back-button" id="backButton" onclick="showSection('inicio')">
+        🏠
+    </button>
+
+    
+</body>
+</html>
